@@ -63,6 +63,6 @@ jobs:
       with:
         commit-message: "update catalog through ${{ steps.date.outputs.date }}"
         title: "Update STAC (${{ steps.date.outputs.date }})"
-        reviewers: "scottyhq"
+        reviewers: "egagli"
         body: |
           Update catalog through ${{ steps.date.outputs.date }})
